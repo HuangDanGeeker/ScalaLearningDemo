@@ -73,6 +73,29 @@ object LoopDemo {
     }
     println("if break successed the print above only include 1~7")
 
+
+    // "do{}while()" demo
+    //1. simple do-while demo
+    println("\nsimple do-while demo")
+    a = 1
+    do{
+      println(a)
+      a = a + 1
+    }while(a < 6)
+
+    //2. break in do-while
+    println("break in do-while")
+    loop.breakable{
+      a = 1
+      do{
+        println(a)
+        a = a + 1
+        if(a > 7){
+          loop.break()
+        }
+      }while(a < 10)
+    }
+    println("if successed break in do-while loop, the print above only include 1~7")
   }
 
 
