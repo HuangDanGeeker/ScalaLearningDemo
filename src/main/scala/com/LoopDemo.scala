@@ -1,5 +1,7 @@
 package com
 
+import scala.util.control.Breaks
+
 /**
   * Created by HuangDanGeeker on 2018/3/9.
   * this is a Demo about using loop key words such as "for while"
@@ -45,5 +47,34 @@ object LoopDemo {
     for(a <- foo){
       println(a)
     }
+
+
+    //‘while’demo
+    //1.simple while demo
+    a = 1
+    println("simple while demo")
+    while(a < 4){
+      println(a)
+      a = a + 1
+    }
+
+    //2.break in while loop
+    println("break in while loop")
+    val loop = new Breaks
+    loop.breakable{
+      a = 1
+      while(a < 10){
+        println(a)
+        if(a > 6){
+          loop.break()
+        }
+        a = a + 1
+      }
+    }
+    println("if break successed the print above only include 1~7")
+
   }
+
+
+
 }
