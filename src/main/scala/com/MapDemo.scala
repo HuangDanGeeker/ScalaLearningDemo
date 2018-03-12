@@ -56,7 +56,7 @@ object MapDemo {
     m.toList
     m.toArray
 
-
+    // the other api is much like that of List
 
 
   }
