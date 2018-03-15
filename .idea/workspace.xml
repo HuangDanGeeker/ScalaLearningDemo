@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15a290ba-ced0-42f7-b83b-726e8437db05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/TraitDemo.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/MatchCaseDemo.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,7 +45,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TraitDemo.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatchCaseDemo.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/MatchCaseDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraitDemo.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/TraitDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
@@ -95,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/IteraterDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ClassObjectDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/TraitDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/MatchCaseDemo.scala" />
       </list>
     </option>
   </component>
@@ -1020,21 +1031,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TraitDemo">
-    <configuration default="false" name="OptionDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.OptionDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="scalalearningdemo" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MatchCaseDemo">
     <configuration default="false" name="IteratorDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.IteratorDemo" />
       <option name="VM_PARAMETERS" />
@@ -1079,6 +1076,20 @@
     </configuration>
     <configuration default="false" name="TraitDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.TraitDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="scalalearningdemo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MatchCaseDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.MatchCaseDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1366,19 +1377,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.OptionDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.IteratorDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ArrayDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ClassObjectDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TraitDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.IteratorDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ClassObjectDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TraitDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MatchCaseDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TraitDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ClassObjectDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IteratorDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArrayDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.OptionDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MatchCaseDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TraitDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ClassObjectDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IteratorDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayDemo" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -1424,12 +1435,12 @@
       <workItem from="1520932890373" duration="4109000" />
       <workItem from="1520937249118" duration="5576000" />
       <workItem from="1521038705894" duration="1212000" />
-      <workItem from="1521076733746" duration="8072000" />
+      <workItem from="1521076733746" duration="8666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59965000" />
+    <option name="totallyTimeSpent" value="60559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1452,7 +1463,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28313252" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4363002" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4363002" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32680723" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2336874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1821,6 +1832,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/MatchCaseDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
